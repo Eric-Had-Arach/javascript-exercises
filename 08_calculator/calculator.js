@@ -7,8 +7,8 @@ const subtract = function(num1, num2) {
 };
 
 const sum = function(arreglo) {
-	let resultado = 0;
-    for(let valor of arreglo) {
+    let resultado = 0;
+    for (let valor of arreglo) {
         resultado += valor;
     }
     return resultado;
@@ -16,7 +16,7 @@ const sum = function(arreglo) {
 
 const multiply = function(arreglo) {
     let resultado = 1;
-    for(let valor of arreglo) {
+    for (let valor of arreglo) {
         resultado *= valor;
     }
     return resultado;
@@ -24,7 +24,7 @@ const multiply = function(arreglo) {
 
 const power = function(base, exponente) {
 	let resultado = 1;
-    for(let i = 1; i <= exponente; i++) {
+    for (let i = 1; i <= exponente; i++) {
         resultado *= base;
     }
     return resultado;
@@ -32,7 +32,7 @@ const power = function(base, exponente) {
 
 const factorial = function(num) {
 	let resultado = 1;
-    for(let i = num; i >= 1; i--) {
+    for (let i = num; i >= 1; i--) {
         resultado *= i;
     }
     return resultado;
