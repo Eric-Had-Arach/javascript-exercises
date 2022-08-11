@@ -23,7 +23,7 @@ const multiply = function(arreglo) {
 };
 
 const power = function(base, exponente) {
-	let resultado = 1;
+    let resultado = 1;
     for (let i = 1; i <= exponente; i++) {
         resultado *= base;
     }
@@ -31,7 +31,7 @@ const power = function(base, exponente) {
 };
 
 const factorial = function(num) {
-	let resultado = 1;
+    let resultado = 1;
     for (let i = num; i >= 1; i--) {
         resultado *= i;
     }
